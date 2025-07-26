@@ -95,9 +95,9 @@ function App() {
         
         <div style={{ marginBottom: "0.rem" }}>
          
-        <h3 style={{ margin: "0.2rem 0", color: "#0d47a1" }}>CureWell App</h3>
-<p style={{ marginBottom: "0.3rem", color: "#444" }}>
-  A healthcare management platform built with Angular, Node, and SQL.
+        <h3 style={{ margin: "0.2rem 0", color: "#0d47a1" }}>CureWell App (Angular + Dotnet core + SQL)</h3>
+<p style={{ marginBottom: "0.3rem", color: "black" }}>
+  A healthcare management platform built with Angular, Dotnet core, and SQL.
 </p>
 
           <div
@@ -113,32 +113,32 @@ function App() {
               boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
             }}
           >
-            ✅ <strong>Live Frontend:</strong>
+             <strong>Live Frontend:</strong>
             <a
               href="https://curewell-angular-rutvik-s-deshmukh.vercel.app/viewDoctors"
               target="_blank"
               rel="noreferrer"
               style={linkStyle}
             >
-              View UI
+              🔗View UI
             </a>
-            ✅ <strong>API / Backend:</strong>
+             <strong>API / Backend:</strong>
             <a
               href="https://curewell.onrender.com/swagger/index.html"
               target="_blank"
               rel="noreferrer"
               style={linkStyle}
             >
-              Swagger & API Design
+              🔗Swagger & API Design
             </a>
-            ✅ <strong>GitHub:</strong>
+             <strong>GitHub:</strong>
             <a
               href="https://github.com/rutvik0550/CureWell"
               target="_blank"
               rel="noreferrer"
               style={linkStyle}
             >
-              View Code
+              🔗View Code
             </a>
           </div>
         </div>
