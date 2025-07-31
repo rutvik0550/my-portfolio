@@ -29,7 +29,7 @@ function App() {
         padding: "1.5rem",
       }}
     >
-      {/* 🔹 Header with photo left and text right */}
+      {/* 🔹 Header */}
       <header
         style={{
           ...cardStyle,
@@ -78,7 +78,7 @@ function App() {
         <p style={{ color: "#333" }}>
           I’m a passionate developer skilled in <strong>Angular</strong>,{" "}
           <strong>React</strong>, <strong>.NET Core</strong>, and <strong>SQL</strong>. I’ve
-          worked on projects like <em>CureWell</em> and I’m looking to collaborate on freelance
+          worked on projects like <em>CureWell</em> and <em>SkillBridge</em>, and I’m looking to collaborate on freelance
           opportunities in Mumbai or international projects.
         </p>
       </section>
@@ -92,14 +92,11 @@ function App() {
           background: "linear-gradient(135deg, #e3f2fd 0%, #ffffff 100%)",
         }}
       >
-        
-        <div style={{ marginBottom: "0.rem" }}>
-         
-        <h3 style={{ margin: "0.2rem 0", color: "#0d47a1" }}>CureWell App (Angular + Dotnet core + SQL)</h3>
-<p style={{ marginBottom: "0.3rem", color: "black" }}>
-  A healthcare management platform built with Angular, Dotnet core, and SQL.
-</p>
-
+        <div style={{ marginBottom: "1rem" }}>
+          <h3 style={{ margin: "0.2rem 0", color: "#0d47a1" }}>CureWell App (Angular + Dotnet core + SQL)</h3>
+          <p style={{ marginBottom: "0.3rem", color: "black" }}>
+            A healthcare management platform built with Angular, Dotnet core, and SQL.
+          </p>
           <div
             style={{
               display: "flex",
@@ -113,7 +110,7 @@ function App() {
               boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
             }}
           >
-             <strong>Live Frontend:</strong>
+            <strong>Live Frontend:</strong>
             <a
               href="https://curewell-angular-rutvik-s-deshmukh.vercel.app/viewDoctors"
               target="_blank"
@@ -122,7 +119,7 @@ function App() {
             >
               🔗View UI
             </a>
-             <strong>API / Backend:</strong>
+            <strong>API / Backend:</strong>
             <a
               href="https://curewell.onrender.com/swagger/index.html"
               target="_blank"
@@ -131,9 +128,58 @@ function App() {
             >
               🔗Swagger & API Design
             </a>
-             <strong>GitHub:</strong>
+            <strong>GitHub:</strong>
             <a
               href="https://github.com/rutvik0550/CureWell"
+              target="_blank"
+              rel="noreferrer"
+              style={linkStyle}
+            >
+              🔗View Code
+            </a>
+          </div>
+        </div>
+
+        {/* ✅ SkillBridge Project */}
+        <div style={{ marginTop: "1.5rem" }}>
+          <h3 style={{ margin: "0.5rem 0", color: "#0d47a1" }}>SkillBridge (Angular + ASP.NET Core + SQLite)</h3>
+          <p style={{ marginBottom: "0.3rem", color: "black" }}>
+            A modern goal management and skill tracking app with user profiles, built using Angular, ASP.NET Core, and SQLite.
+          </p>
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              justifyContent: "center",
+              alignItems: "center",
+              background: "#fff",
+              padding: "0.8rem",
+              borderRadius: "10px",
+              border: "1px solid #eee",
+              boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
+            }}
+          >
+            <strong>Live Frontend:</strong>
+            <a
+              href="https://skill-bridge-ui-rutvik-deshmukh.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              style={linkStyle}
+            >
+              🔗View UI
+            </a>
+            <strong>API / Backend:</strong>
+            <a
+              href="https://skillbridgeapi-rutvik-deshmukh.onrender.com/swagger/index.html"
+              target="_blank"
+              rel="noreferrer"
+              style={linkStyle}
+            >
+              🔗Swagger & API Design
+            </a>
+            <strong>GitHub:</strong>
+            <a
+              href="https://github.com/rutvik0550/SkillBridge"
               target="_blank"
               rel="noreferrer"
               style={linkStyle}
