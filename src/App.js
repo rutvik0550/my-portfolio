@@ -142,7 +142,7 @@ function App() {
 
         {/* ✅ SkillBridge Project */}
         <div style={{ marginTop: "1.5rem" }}>
-          <h3 style={{ margin: "0.5rem 0", color: "#0d47a1" }}>SkillBridge (Angular + ASP.NET Core + SQLite)</h3>
+          <h3 style={{ margin: "0.5rem 0", color: "#0d47a1" }}>SkillBridge App (Angular + ASP.NET Core + SQLite)</h3>
           <p style={{ marginBottom: "0.3rem", color: "black" }}>
             A modern goal management and skill tracking app with user profiles, built using Angular, ASP.NET Core, and SQLite.
           </p>
@@ -189,20 +189,7 @@ function App() {
           </div>
         </div>
 
-        <div>
-          <h3 style={{ margin: "0.5rem 0", color: "#0d47a1" }}>My Portfolio</h3>
-          <p style={{ marginBottom: "0.5rem", color: "#555" }}>
-            This website itself is built with React and hosted on GitHub Pages.
-          </p>
-          <a
-            href="https://github.com/rutvik0550/my-portfolio"
-            target="_blank"
-            rel="noreferrer"
-            style={linkStyle}
-          >
-            🔗 View on GitHub
-          </a>
-        </div>
+
       </section>
 
       {/* ✨ Hire Me Section */}
@@ -214,10 +201,9 @@ function App() {
           background: "linear-gradient(135deg, #fffde7 0%, #ffffff 100%)",
         }}
       >
-        <h2 style={{ marginBottom: "0.8rem", color: "#f57c00" }}>Hire Me for Freelance</h2>
+        <h2 style={{ marginBottom: "0.8rem", color: "#f57c00" }}>connect with me :</h2>
         <p>
-          Interested in working with me? I’m open for <strong>freelance</strong> opportunities
-          in Mumbai or remote international projects.
+          Interested in working with me? I’m open for <strong>Fulltime & freelance</strong> opportunities.
         </p>
         <p>
           <strong>Email:</strong>{" "}
@@ -248,7 +234,7 @@ function App() {
         }}
       >
         <h2 style={{ color: "#d81b60" }}>Contact Me</h2>
-        <form
+       <form
           action="https://formspree.io/f/meozgdjw"
           method="POST"
           style={{ display: "flex", flexDirection: "column" }}
