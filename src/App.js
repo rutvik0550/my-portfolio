@@ -92,53 +92,6 @@ function App() {
           background: "linear-gradient(135deg, #e3f2fd 0%, #ffffff 100%)",
         }}
       >
-        <div style={{ marginBottom: "1rem" }}>
-          <h3 style={{ margin: "0.2rem 0", color: "#0d47a1" }}>CureWell App (Angular + Dotnet core + SQL)</h3>
-          <p style={{ marginBottom: "0.3rem", color: "black" }}>
-            A healthcare management platform built with Angular, Dotnet core, and SQL.
-          </p>
-          <div
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              justifyContent: "center",
-              alignItems: "center",
-              background: "#fff",
-              padding: "0.8rem",
-              borderRadius: "10px",
-              border: "1px solid #eee",
-              boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
-            }}
-          >
-            <strong>Live Frontend:</strong>
-            <a
-              href="https://curewell-angular-rutvik-s-deshmukh.vercel.app/viewDoctors"
-              target="_blank"
-              rel="noreferrer"
-              style={linkStyle}
-            >
-              🔗View UI
-            </a>
-            <strong>API / Backend:</strong>
-            <a
-              href="https://curewell.onrender.com/swagger/index.html"
-              target="_blank"
-              rel="noreferrer"
-              style={linkStyle}
-            >
-              🔗Swagger & API Design
-            </a>
-            <strong>GitHub:</strong>
-            <a
-              href="https://github.com/rutvik0550/CureWell"
-              target="_blank"
-              rel="noreferrer"
-              style={linkStyle}
-            >
-              🔗View Code
-            </a>
-          </div>
-        </div>
 
         {/* ✅ SkillBridge Project */}
         <div style={{ marginTop: "1.5rem" }}>
@@ -189,6 +142,53 @@ function App() {
           </div>
         </div>
 
+        <div style={{ marginBottom: "1rem" }}>
+          <h3 style={{ margin: "0.2rem 0", color: "#0d47a1" }}>CureWell App (Angular + Dotnet core + SQL)</h3>
+          <p style={{ marginBottom: "0.3rem", color: "black" }}>
+            A healthcare management platform built with Angular, Dotnet core, and SQL.
+          </p>
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              justifyContent: "center",
+              alignItems: "center",
+              background: "#fff",
+              padding: "0.8rem",
+              borderRadius: "10px",
+              border: "1px solid #eee",
+              boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
+            }}
+          >
+            <strong>Live Frontend:</strong>
+            <a
+              href="https://curewell-angular-rutvik-s-deshmukh.vercel.app/viewDoctors"
+              target="_blank"
+              rel="noreferrer"
+              style={linkStyle}
+            >
+              🔗View UI
+            </a>
+            <strong>API / Backend:</strong>
+            <a
+              href="https://curewell.onrender.com/swagger/index.html"
+              target="_blank"
+              rel="noreferrer"
+              style={linkStyle}
+            >
+              🔗Swagger & API Design
+            </a>
+            <strong>GitHub:</strong>
+            <a
+              href="https://github.com/rutvik0550/CureWell"
+              target="_blank"
+              rel="noreferrer"
+              style={linkStyle}
+            >
+              🔗View Code
+            </a>
+          </div>
+        </div>
 
       </section>
 
