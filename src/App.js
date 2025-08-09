@@ -94,7 +94,7 @@ function App() {
       >
 
         {/* ✅ SkillBridge Project */}
-        <div style={{ marginTop: "1.5rem" }}>
+        <div style={{ marginTop: "0.7rem" }}>
           <h3 style={{ margin: "0.5rem 0", color: "#0d47a1" }}>SkillBridge App (Angular + ASP.NET Core + SQLite)</h3>
           <p style={{ marginBottom: "0.3rem", color: "black" }}>
             A modern goal management and skill tracking app with user profiles, built using Angular, ASP.NET Core, and SQLite.
@@ -142,7 +142,7 @@ function App() {
           </div>
         </div>
 
-        <div style={{ marginBottom: "1rem" }}>
+        <div style={{ marginTop: "1.5rem" }}>
           <h3 style={{ margin: "0.2rem 0", color: "#0d47a1" }}>CureWell App (Angular + Dotnet core + SQL)</h3>
           <p style={{ marginBottom: "0.3rem", color: "black" }}>
             A healthcare management platform built with Angular, Dotnet core, and SQL.
