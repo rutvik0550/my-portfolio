@@ -123,7 +123,7 @@ function App() {
             </a>
             <strong>API / Backend:</strong>
             <a
-              href="https://skillbridgeapi-rutvik-deshmukh.onrender.com/swagger/index.html"
+              href="https://skillbridge-production-f008.up.railway.app/swagger/index.html"
               target="_blank"
               rel="noreferrer"
               style={linkStyle}
@@ -171,7 +171,7 @@ function App() {
             </a>
             <strong>API / Backend:</strong>
             <a
-              href="https://curewell.onrender.com/swagger/index.html"
+              href="https://curewell-production.up.railway.app/swagger/index.html"
               target="_blank"
               rel="noreferrer"
               style={linkStyle}
